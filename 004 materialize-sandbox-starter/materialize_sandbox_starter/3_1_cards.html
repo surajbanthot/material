@@ -126,16 +126,16 @@
     <div class="row">
       <div class="col s12 m6">
         <!-- SIMPLE CARD WITHOUT TITLE -->
-        <div>
-          <div>
+        <div class="card">
+          <div class="card-content">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi harum enim inventore ullam expedita nesciunt ea
               voluptatem corporis iusto sint?</p>
           </div>
         </div>
 
         <!-- ADD COLOR -->
-        <div>
-          <div>
+        <div class="card red darken02">
+          <div class="card-content white-text">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi harum enim inventore ullam expedita nesciunt ea
               voluptatem corporis iusto sint?</p>
           </div>
@@ -143,14 +143,14 @@
       </div>
       <div class="col s12 m6">
         <!-- CARD WITH TITLE -->
-        <div>
-          <div>
-            <span>Card With Title</span>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi harum enim inventore ullam expedita nesciunt ea
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">Card With Title</span>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi harum enim inventore  ullam expedita nesciunt ea
               voluptatem corporis iusto sint?</p>
           </div>
           <!-- ADD LINKS -->
-          <div>
+          <div class="card-action">
             <a href="#">Read More</a>
             <a href="#">Read More</a>
           </div>
@@ -162,31 +162,32 @@
     <div class="row">
       <div class="col s12 m6">
         <!-- CARD WITH IMAGE -->
-        <div>
-          <div>
-            <img src="" alt="">
-            <span>Card Image</span>
+        <div class="card">
+          <div class="card-image">
+            <img src="img/img1.jpg" alt="">
+            
           </div>
-          <div>
+          <div class='card-content'>
+            <span class="card-title">Card Image</span>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi harum enim inventore ullam expedita nesciunt ea
               voluptatem corporis iusto sint?</p>
           </div>
-          <div>
+          <div class="card-action">
             <a href="#">Read More</a>
           </div>
         </div>
       </div>
       <div class="col s12 m6">
         <!-- CARD WITH IMAGE & FLOATING BUTTON -->
-        <div>
-          <div>
-            <img src="" alt="">
-            <span>Image & Button</span>
-            <a>
-              <i></i>
+        <div class="card blue-grey lighten-4">
+          <div class="card-image">
+            <img src="img/img1.jpg" alt="">
+            <span class="card-title">Image & Button</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light blue">
+              <i class="material-icons">add</i>
             </a>
           </div>
-          <div>
+          <div class="card-content">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi harum enim inventore ullam expedita nesciunt ea
               voluptatem corporis iusto sint?</p>
           </div>
@@ -198,13 +199,13 @@
     <div class="row">
       <div class="col s12 m6">
         <!-- HORIZONTAL CARD -->
-        <div>
-          <div>
-            <img src="">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="img/img3.jpg">
           </div>
-          <div>
-            <div>
-              <span>Horizontal</span>
+          <div class="card-stacked">
+            <div class="card-content">
+              <span class="card-title">Horizontal</span>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
           </div>
@@ -212,13 +213,13 @@
       </div>
       <div class="col s12 m6">
         <!-- CARD REVEAL -->
-        <div>
-          <div>
-            <img src="">
+        <div class="card">
+          <div class="card-image waves-effect waves-light waves-block">
+            <img class="activator" src="img/img4.jpg">
           </div>
-          <div>
+          <div class="card-title">
             <span>Card Reveal
-              <i></i>
+              <i class="material-icons">more-vert</i>
             </span>
             <p>
               <!-- add activator to anything -->
